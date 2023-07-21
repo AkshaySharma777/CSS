@@ -1,0 +1,38 @@
+/* P6.HTML */
+.cssColor1{
+  background-color: #008080;
+ /* teal  */
+}
+.cssColor2{
+    background-color: #87CEEB;
+}
+.cssColor3{
+    background-color: #808080;
+}
+.commonColors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.jumbotron{
+ background-color: #8e44ad;
+  border-radius: 10px;
+}
+.cssFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.cssText{
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.cssText>p{
+  text-indent: 100px;
+}
