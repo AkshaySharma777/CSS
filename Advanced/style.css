@@ -1,0 +1,63 @@
+.title
+{
+    background-color: rgb(255, 187, 52);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title>h1{
+    color: rgb(255, 136, 0);
+}
+.title>p{
+  color: #fff;
+  font-size: 20px;
+}
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid #ccc;
+}
+.cssOutLine{
+    outline: 3px solid #000;
+    border-radius: 10px;
+}
+/* p3.html */
+.cssOverFlow>p{
+ text-align: justify;
+ line-height: 2;
+ border: 2px solid #000;
+ padding: 20px;
+ width: 300px;
+ height: 300px;
+ overflow: auto;
+}
+.cssOverFlow>p:last-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* p4.html */
+.cssWhiteSpace{
+    white-space: pre-wrap;
+}
+/* p5.html */
+.cssUnits>h3:nth-child(2){
+  margin: 0.5in;
+}
+.cssUnits>h3:nth-child(3){
+    line-height: 3cm;
+}
+.cssUnits>h3:nth-child(4){
+    word-spacing: 4mm;
+}
+.cssUnits>h3:nth-child(5){
+    font-size: 12pt;
+}
+.cssUnits>h3:nth-child(6){
+    font-size: 1pc;
+}
+.cssUnits>h3:nth-child(7){
+    font-size: 12px;
+}

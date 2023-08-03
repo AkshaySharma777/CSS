@@ -14,10 +14,19 @@
             background-color: orange;
             color: red;
         }
+        .combination ~ p{
+            background-color: hotpink;
+        }
         .combination + h5 + p {
             background-color: red;
             color: orange;
         }
+        .combination ~ div > p{
+            background-color: blue;
+           }
+           .combination ~ div > h5{
+            background-color: lightgreen;
+           }
     </style>
 </head>
 <body>
@@ -93,7 +102,7 @@
     <div>
     <h5>THIS IS THIRD H5</h5>
     <p>THIS IS THIRD PARAGRAPH</p>
-</div>
+    </div>
     <h5>THIS IS FOURTH H5</h5>
     <p>THIS IS FOURTH PARAGRAPH</p>
     

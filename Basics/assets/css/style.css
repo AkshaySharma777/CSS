@@ -47,7 +47,7 @@
 }
 .navBar>ul>li{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 .navBar>ul>li a{
    color:  #fff;
@@ -56,7 +56,7 @@
      color: #fff;
 }
 .navBar>ul>li:hover a{
-     color: darkcyan;
+     color: rgb(215, 66, 190);
 }
 .navBar>img{
     height: 54px;
