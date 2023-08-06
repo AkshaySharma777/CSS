@@ -155,4 +155,69 @@
 .cssPosition div{
     border: 2px solid black;
     padding: 20px;
+    position : relative;
+}
+.cssPosition>.second{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.cssPosition>div>.fifth{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.cssPosition>.seven{
+ background-color: blue;
+}
+.cssPosition>.eight{
+    background-color: crimson;
+    position: sticky;
+    top: 0%;
+}
+.cssPosition>.nine{
+    background-color: black;
+    position: fixed;
+    top: 45%;
+    right: 0%;
+    transition: 1s;
+    border-radius: 5px;
+}
+.cssPosition>.nine:hover{
+    right: 2%;
+}
+.zIndex>section{
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+  position: absolute;
+}
+.zIndex{
+    position: relative;
+    height: 300px;
+}
+.zIndex>.first{
+    background-color: darkgoldenrod;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.zIndex>.second{
+    background-color: darkgreen;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.zIndex>.third{
+    background-color: darkmagenta;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.zIndex>.first:hover{
+    z-index: 4;
+}
+.zIndex>.second:hover{
+    z-index: 4;
 }
