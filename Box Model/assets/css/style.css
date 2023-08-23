@@ -59,15 +59,15 @@
     margin: 50px;
    }
 
-   .cssMargin>h1:nth-child(1){
-    margin: 25px 75;
+   .cssMargin>h1:nth-child(2){
+    margin: 25px 75px;
    }
 
-   .cssMargin>h1:nth-child(1){
+   .cssMargin>h1:nth-child(3){
     margin: 25px 50px 75px;
    }
 
-   .cssMargin>h1:nth-child(1){
+   .cssMargin>h1:nth-child(4){
     margin: 25px 50px 75px 100px;
    }
 
